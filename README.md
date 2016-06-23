@@ -13,7 +13,9 @@ The normal `<%= name %>`, `<%- name %>` and `<% name %>` tags behave exactly as 
 
 ## Usage
 
-###### *templatePipe(templateString[, settings])*
+```js
+templatePipe(templateString[, settings])
+```
 
 ##### As an underscore function in NodeJS
 
@@ -42,6 +44,7 @@ var templateString = templatePipe('<%| data.authors %>')({
 })
 
 // => [ { name: 'mhk' }, { name: 'khm' } ]
+```
 
 ##### With a custom syntax style
 
@@ -62,6 +65,7 @@ var templateString = templatePipe('<%~ data.authors %>', templateSettings)({
 })
 
 // => [ { name: 'mhk' }, { name: 'khm' } ]
+```
 
 ## License
 
