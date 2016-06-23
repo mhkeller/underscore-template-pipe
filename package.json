@@ -1,7 +1,7 @@
 {
   "name": "underscore-template-pipe",
   "version": "1.0.0",
-  "description": "",
+  "description": "An underscore template function that can return json.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -14,5 +14,13 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhkeller/underscore-template-pipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhkeller/underscore-template-pipe/issues"
+  },
+  "homepage": "https://github.com/mhkeller/underscore-template-pipe#readme"
 }
